@@ -103,8 +103,8 @@ Carta* carteado(Baralho *baralho){
   //repetir até que três cartas não jogadas tenham sido selecionadas pelo rand
   while(contador != 3){
 
-    valor = rand() % 14;
-    naipe = rand() % 4;
+    valor = rand() % 12;
+    naipe = rand() % 3;
     //caso ela não tenha sido jogada, adicionar no vetor e marcar como true
     if(!baralho->matriz[valor][naipe].foiJogada){
       baralho->matriz[valor][naipe].foiJogada = true;
