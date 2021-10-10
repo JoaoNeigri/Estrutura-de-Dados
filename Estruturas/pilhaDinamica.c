@@ -47,7 +47,7 @@ bool verificaPilha(pilhaDinamica *p){
 // Retorna a quantidade de elementos na estrutura
 int quantEstrutura(pilhaDinamica *p){
   return p->qtde;
-}
+} 
 
 /*----------------------------------------------------------------------------*/
 
