@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<stdbool.h>
 
+
 /*                          -Operações de modificação-
 * 1 - Inicialização
 * 2 - Enfileira
