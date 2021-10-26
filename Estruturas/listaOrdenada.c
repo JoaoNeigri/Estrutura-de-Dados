@@ -41,15 +41,21 @@ void iniciaLista(ListaOrdenada *l){
   l->qElementos = 0;
 }//iniciaLista
 
+/*----------------------------------------------------------------------------*/
+
 // Retorna TRUE se a lista está vazia
 bool verificaVazia(ListaOrdenada *l){
   return (l->inicio == NULL);
 }//verificaVazia
 
+/*----------------------------------------------------------------------------*/
+
 // Retorna a quantidade de elementos
 int qElementos(ListaOrdenada *l){
   return (l->qElementos);
 }//qElementos
+
+/*----------------------------------------------------------------------------*/
 
 // Insere um valor na lista ordenada
 void insereLista(ListaOrdenada *l, int x){
@@ -84,6 +90,8 @@ void insereLista(ListaOrdenada *l, int x){
   l->qElementos++;
 
 }//insereLista
+
+/*----------------------------------------------------------------------------*/
 
 // Função que remove valores da lista ordenada
 bool removeLista(ListaOrdenada *l, int x){
@@ -125,6 +133,8 @@ bool removeLista(ListaOrdenada *l, int x){
   }
 }//removeLista
 
+/*----------------------------------------------------------------------------*/
+
 // Pesquisa se existe um número na lista Lista Ordenada
 bool pesquisaLista(ListaOrdenada *l, int x){
 
@@ -155,10 +165,16 @@ bool pesquisaLista(ListaOrdenada *l, int x){
 
 }//pesquisaLista
 
+/*----------------------------------------------------------------------------*/
+
+// Verifica o menor valor da lista
 int verificaMinimo(ListaOrdenada *l){
   return (l->inicio->chave);
 }//verificaMinimo
 
+/*----------------------------------------------------------------------------*/
+
+// Verifica o maior valor da lista
 int verificaMaximo(ListaOrdenada *l){
   ptrNo percorre = l->inicio;
 
@@ -166,7 +182,9 @@ int verificaMaximo(ListaOrdenada *l){
     percorre = percorre->proximo;
   }
   return (percorre->chave);
-}
+}//verificaMinimo
+
+/*----------------------------------------------------------------------------*/
 
 // Destroi lista ordenada
 void destroiLista(ListaOrdenada *l){
@@ -186,6 +204,8 @@ void destroiLista(ListaOrdenada *l){
 
 }//destroiLista
 
+/*----------------------------------------------------------------------------*/
+
 // Imprime a lista ordenada
 void imprimeLista(ListaOrdenada *l){
   ptrNo percorre;
@@ -199,6 +219,8 @@ void imprimeLista(ListaOrdenada *l){
   printf("]\n\n");
 
 }//imprimeLista
+
+/*----------------------------------------------------------------------------*/
 
 // Imprime o menu de opções
 void imprimeMenu(ListaOrdenada *l){
@@ -217,6 +239,7 @@ void imprimeMenu(ListaOrdenada *l){
 
 }//imprimeMenu
 
+/*----------------------------------------------------------------------------*/
 
 int main(){
 
