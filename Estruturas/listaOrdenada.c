@@ -227,7 +227,7 @@ void imprimeMenu(ListaOrdenada *l){
 
   printf("----------- 1. Insere Valores -----------\n");
   printf("----------- 2. Remove Valores -----------\n");
-  printf("------ 3. Pesquisa Valorna Lista --------\n");
+  printf("------ 3. Pesquisa Valor na Lista -------\n");
   printf("------- 4. Verifica se Está Vazia -------\n");
   printf("---- 5. Retorna Quantidade Elementos ----\n");
   printf("------- 6. Maior Valor da Lista ---------\n");
