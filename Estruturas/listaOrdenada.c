@@ -218,7 +218,7 @@ void imprimeLista(ListaOrdenada *l){
   }
   printf("]\n\n");
 
-}//imprimeLista
+}//imprimLiLista
 
 /*----------------------------------------------------------------------------*/
 

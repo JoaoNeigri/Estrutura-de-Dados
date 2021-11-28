@@ -72,16 +72,6 @@ bool insereArvore(ptrNo * no, int x){
 }//insereArvore
 
 //------------------------------------------------------------------------------
-// Busca pré-ordem
-void preordem(ptrNo * no){
-  if((*no) == NULL) return;
-
-  printf("%i\n", (*no)->chave);
-  preordem(&(*no)->noEsquerda);
-  preordem(&(*no)->noDireita);
-}//preordem
-
-//------------------------------------------------------------------------------
 // Busca ordem crescrente
 void ordemCresc(ptrNo * no){
   if((*no) == NULL) return;
