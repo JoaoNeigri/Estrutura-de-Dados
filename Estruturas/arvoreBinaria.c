@@ -1,9 +1,9 @@
-/*
+/*--------------------------------------------------------------------------*//*
 * @author: João Pedro Neigri Heleno, heleno@alunos.utfpr.edu.br
 * @Github: @JoaoNeigri
 * @file: arvoreBinaria.c
 * Description: Programa que implementa uma arvore binária
-*/
+*//*--------------------------------------------------------------------------*/
 
 #include<stdio.h>
 #include<stdlib.h>
